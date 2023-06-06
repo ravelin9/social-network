@@ -14,7 +14,7 @@ logs
 **/*.back.*
 
 node_modules
-build
+/build
 bower_components
 
 *.sublime*
