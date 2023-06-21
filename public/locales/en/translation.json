@@ -9,5 +9,11 @@
   "Главная страница": "Main page",
   "О сайте": "About",
   "Переключить": "Toggle",
-  "Короткий Язык": "En"
+  "Короткий Язык": "En",
+  "Войти": "Войти",
+  "Lorem ipsum dolor sit amet, consectetur adipisicing elit": {
+    " Architecto deserunt, dignissimos dolorum ea impedit iste labore perspiciatis quae quas quisquam": {
+      "": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto deserunt, dignissimos dolorum ea impedit iste labore perspiciatis quae quas quisquam."
+    }
+  }
 }
