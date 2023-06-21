@@ -5,21 +5,17 @@ import { AppRouter } from 'app/providers/router';
 import { Navbar } from 'widgets/Navbar';
 import { Sidebar } from 'widgets/Sidebar';
 
-const App = () => {
-    const { theme } = useTheme();
+const App = () => (
+    <div className={classNames('app', {}, [])}>
+        <Suspense fallback="">
+            <Navbar />
+            <div className="content-page">
+                <Sidebar />
+                <AppRouter />
+            </div>
+        </Suspense>
 
-    return (
-        <div className={classNames('app', {}, [theme])}>
-            <Suspense fallback="">
-                <Navbar />
-                <div className="content-page">
-                    <Sidebar />
-                    <AppRouter />
-                </div>
-            </Suspense>
-
-        </div>
-    );
-};
+    </div>
+);
 
 export default App;
