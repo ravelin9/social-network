@@ -15,6 +15,7 @@ logs
 
 node_modules
 /build
+/storybook-static
 bower_components
 
 *.sublime*
