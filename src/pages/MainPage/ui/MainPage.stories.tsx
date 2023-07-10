@@ -7,20 +7,14 @@ const meta: Meta<typeof MainPage> = {
     title: 'pages/MainPage',
     component: MainPage,
     tags: ['autodocs'],
-    argTypes: {
-    },
 };
 
 export default meta;
 type Story = StoryObj<typeof MainPage>;
 
 export const Normal: Story = {
-    args: {
-    },
 };
 
 export const Dark: Story = {
-    args: {
-    },
     decorators: [ThemeDecorator(Theme.DARK)],
 };
